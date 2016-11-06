@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Convert C to F</title>
+  </head>
+  <body>
+    <script>
+      function convertCtoF(C){
+      var F = (C*9)/5 + 32;
+      return F;
+      }
+    </script>
+    <input type="text" id = "id1" />
+    <input type="button" value = "convert temperature  C to F" onclick="alert(convertCtoF(Number(document.getElementById('id1').value)))" />
+  </body>
+</html>

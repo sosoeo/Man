@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>button example</title>
+    <script>
+      function buttonReport(id,name,value){
+      var msg1="button id:" + id + "\n";
+      var msg2="button name:" + name + "\n";
+      var msg3="button value:" + value;
+      alert(msg1+msg2+msg3);
+      }
+    </script>
+  </head>
+  <body>
+    <input type="button" id = "id1" name="Left hand button" value="Left"   onclick="buttonReport(this.id,this.name,this.value);" />
+    <input type="button" id = "id2" name="Center button"    value="Center" onclick="buttonReport(this.id,this.name,this.value);" />
+    <input type="button" id = "id3" name="Right button"     value="Right"  onclick="buttonReport(this.id,this.name,this.value);" />
+  </body>
+</html>

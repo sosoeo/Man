@@ -25,5 +25,11 @@
 3. 运算符：+-*/ % ++ -- += -= *= /=   字符串连接符+
 4. 事件处理器(event handler：为响应用户动作而执行的脚本onClick,onMouseOver,onMouseOut
 5. 事件处理器onClick,onMouseOver,onMouseOut发生后可以直接执行javascript脚本而没有<script>声明
-6. Html 不区分大小写 XHTML 区分大小写且属性名称一律小写
+6. Html 不区分大小写 XHTML 区分大小写且属性名称一律小写,end.
+
+第三章 使用函数
+1. 定义函数：function f(){} 
+2. 把函数定义到文档的head部分，就能够确保他们在被调用前已经被定义。
+3. 如何从用户input得到一个值然后进行运算。end.
+
 
