@@ -1,0 +1,11 @@
+<!DOCTYPE htmlt>
+<html>
+  <head>
+    <title>onMouseOver demo</title>
+  </head>
+  <body>
+    <img src="key_fill_32x32.png" alt="image 1" onmouseover="alert('You entered the image!');" />
+    <img src="key_fill_32x32.png" alt="image 1" onmouseover="this.src='key_stroke_32x32.png';" onmouseout="this.src='key_fill_32x32.png';" />
+    <img src="key_fill_32x32.png" alt="image 1" title="Old title" onclick="if (this.title=='Old title'){this.title='New title';} else {this.title='Old title';}" />
+  </body>
+</html>

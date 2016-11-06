@@ -19,4 +19,11 @@
    *  window由于是DOM的顶级对象，可省洛：window.alert()->alert() window.document.write()->document.write()
 3. 练习：exe0.html,exe0.js，end.
 
+第二章 创建简单的脚本
+1. 在页面中优先使用<script src="***.js"></script>方式添加javascript代码
+2. 注释：// /* */ 变量：字母、数字、下滑线，美元符$ 变量名驼峰大小写
+3. 运算符：+-*/ % ++ -- += -= *= /=   字符串连接符+
+4. 事件处理器(event handler：为响应用户动作而执行的脚本onClick,onMouseOver,onMouseOut
+5. 事件处理器onClick,onMouseOver,onMouseOut发生后可以直接执行javascript脚本而没有<script>声明
+6. Html 不区分大小写 XHTML 区分大小写且属性名称一律小写
 
