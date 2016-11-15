@@ -33,3 +33,12 @@
 3. 如何从用户input得到一个值然后进行运算。end.
 
 
+第四章 利用window对象的方法alert(),prompt(),confirm()交互
+1. alert():模态消息对话框，一个确认按钮，脚本暂时停止运行直到用户关闭对话框。不需要回答
+2. confirm():模态消息对话框，返回一个真假布尔值。需要回答，只是YES，or NO
+3. prompt():可以携带返回消息的 需要回答，答复一句话
+4. getElementById("div1"): 返回指定ID页面元素的DOM对象
+5. innerHTML:页面元素DOM对象的内容属性
+6. window对象的history对象有一个属性（history.length访问过的页面数量）3个方法forward,backward,go
+7. location对象
+8. 日期和时间 end.

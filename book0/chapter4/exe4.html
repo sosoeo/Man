@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>new date()</title>
+    <meta charset="utf-8">
+    <style>
+      td {border:1px solid gray;padding:3px 5px;}
+    </style>
+  </head>
+  <body>
+    <script>
+      var mydate = new Date();
+      document.write("<table>")
+      document.write("<tr><td>日期toString</td><td>" + mydate.toString() + "</td></tr>");
+      document.write("<tr><td>日期toDateString</td><td>" + mydate.toDateString() + "</td></tr>");
+      document.write("<tr><td>时间toTimeString</td><td>" + mydate.toTimeString() + "</td></tr>");
+      document.write("<tr><td>日期toLocalDateString</td><td>" + mydate.toLocaleDateString() + "</td></tr>");
+      document.write("<tr><td>时间toLocalTimeString</td><td>" + mydate.toLocaleTimeString() + "</td></tr>");
+
+
+      document.write("</table>");
+    </script>
+  </body>
+</html>

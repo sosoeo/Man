@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>getdatetime</title>
+    <meta charset="utf-8">
+    <style>
+      p {font:14px normal arial,verdana,helvetica;}
+    </style>
+    <script>
+      function telltime(){
+      var now = new Date();
+      var out = "";
+      out += "<br />日期:" + now.getDate();
+      out += "<br />月份:" + now.getMonth();
+      out += "<br />年份:" + now.getFullYear();
+      out += "<br />小时:" + now.getHours();
+      out += "<br />分钟:" + now.getMinutes();
+      out += "<br />秒数:" + now.getSeconds();
+      document.getElementById("div1").innerHTML=out;
+      }
+    </script>
+    
+  </head>
+  <body>
+    <div id="div1">
+      <script>
+	telltime()
+      </script>
+      <input type="button" onclick="location.reload()" value="Refresh">
+    </div>
+  </body>
+</html>
