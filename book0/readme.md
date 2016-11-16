@@ -42,3 +42,8 @@
 6. window对象的history对象有一个属性（history.length访问过的页面数量）3个方法forward,backward,go
 7. location对象
 8. 日期和时间 end.
+
+第五章 数字和字符串
+1. 数值（整数和浮点数），非数值（NaN），字符串转数值(parseFloat() parseInt()) 无穷大(Infinity, -Infinity,isFinite())
+2. 字符串方法（concat,indexof,lastindexof,replace,split,substr,toLowerCase,toUpperCase)
+3. 布尔值ture,false,end.
